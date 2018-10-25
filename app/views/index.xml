@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<Label top="50" id="label">Buscar compañia</Label>
+		<TextField top="50" id="companyName"></TextField>
+		<Button top="10" onClick="searchClick">Search</Button>
+		<TableView id="companyTv"></TableView>
+	</Window>
+</Alloy>
